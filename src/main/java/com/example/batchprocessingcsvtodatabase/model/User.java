@@ -31,6 +31,8 @@ public class User extends BaseEntity{
 
     private String country;
 
-    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
+    @JsonFormat(pattern="yyyy-MM-dd")
     private LocalDateTime birthday;
+
+    private int age;
 }
