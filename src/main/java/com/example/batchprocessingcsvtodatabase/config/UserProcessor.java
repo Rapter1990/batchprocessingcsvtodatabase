@@ -25,17 +25,17 @@ public class UserProcessor implements ItemProcessor<UserInput, User> {
                 .country(userInput.getCountry())
                 .birthday(localDateTimeFormat(userInput.getBirthday()))
                 .gender(userInput.getGender().equals("Male") ? Gender.MALE : Gender.FEMALE)
-                .age(Period.between(localDateTimeFormat(userInput.getBirthday()).toLocalDate(), LocalDate.now()).getYears())
+                .age(Period.between(localDateTimeFormat(userInput.getBirthday()), LocalDate.now()).getYears())
                 .build();
 
         return user;
     }
 
-    private LocalDateTime localDateTimeFormat(String birthday) {
+    private LocalDate localDateTimeFormat(String birthday) {
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         LocalDateTime formatDateTime = LocalDateTime.parse(birthday, formatter);
 
-        return formatDateTime;
+        return formatDateTime.toLocalDate();
     }
 }

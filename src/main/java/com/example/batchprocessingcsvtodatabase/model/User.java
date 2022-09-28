@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
@@ -32,7 +33,7 @@ public class User extends BaseEntity{
     private String country;
 
     @JsonFormat(pattern="yyyy-MM-dd")
-    private LocalDateTime birthday;
+    private LocalDate birthday;
 
     private int age;
 }
