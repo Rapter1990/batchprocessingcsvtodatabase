@@ -40,6 +40,6 @@ public class BatchController {
             e.printStackTrace();
         }
 
-        return new ResponseEntity<>("Batch Process started!!", HttpStatus.OK);
+        return new ResponseEntity<>("Batch Process Completed!!", HttpStatus.OK);
     }
 }
