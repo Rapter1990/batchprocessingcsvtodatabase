@@ -20,8 +20,7 @@ public class UserInput {
     private String email;
     private String country;
     private String gender;
-    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
-    private LocalDateTime birthday;
+    private String birthday;
     private int age;
 
 }
