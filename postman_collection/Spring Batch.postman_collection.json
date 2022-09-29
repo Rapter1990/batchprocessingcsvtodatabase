@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "79a46f2b-8f0c-46ef-ba34-dcae7d244169",
+		"name": "Spring Batch",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Call Batch Method",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/batch/importuserjob",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"batch",
+						"importuserjob"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
