@@ -1,6 +1,6 @@
 # Spring Boot Batch Processing CSV to DB
 
-<img src="" alt="Main Information" width="800" height="300">
+<img src="screenshots/spring_boot_batch_main_image.png" alt="Main Information" width="800" height="300">
 
 ### 📖 Information
 
