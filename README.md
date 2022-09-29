@@ -1,15 +1,16 @@
 # Spring Boot Batch Processing CSV to DB
 
-<img src="screenshots/spring_boot_batch_main_image.png" alt="Main Information" width="800" height="600">
+<img src="screenshots/spring_boot_batch_main_image.png" alt="Main Information" width="800" height="500">
 
 ### 📖 Information
 
 <ul style="list-style-type:disc">
-  <li>li>
-  <li>
+  <li><b>Spring Batch</b> is a comprehensive batch framework which allows to <b>batch processing</b> for enterprise systems</li>
+  <li>These batch processing includes tasks like  reading and writing to files,
+transforming data, reading and writing to databases and so on.</li>
+  <li>Here is the explanation of the project
       <ul>
-        <li></li>
-        <li></li>
+        <li>Implement the process of <b>batch</b> covering reading all values from csv file and write all them into database</li>
       </ul>
   </li>
 </ul>
